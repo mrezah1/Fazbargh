@@ -1,0 +1,1509 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سبد خرید</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="bg-white py-6 border-bottomE">
+        <div class="container">
+            <div class="row my-3">
+                <div class="col-6 col-md-4">
+                    <a href="/" class="logo">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="col-4 p-0 d-none d-md-block">
+                    <div class="d-flex mt-2 borderC br">
+                        <input autocomplete="off" type="text" id="input_search" placeholder="متن جستجو را وارد کنید...">
+                        <button class="bg-tr tr br txt-white bg-red fade-hover cp"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 d-flex align-items-center justify-content-end">
+                    <div id="join_lbl" class="txt-left">
+                        <a href="#" class="c555 link-hover tr"><i
+                                class="fa tr c666 fa-sign-in-alt v-2 pl-6"></i>ورود</a>
+                        <span class="px-6"> | </span>
+                        <a href="#" class="c555 link-hover tr"><i class="fa tr c666 fa-user-plus v-2 pl-6"></i>ثبت
+                            نام</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="header_menu">
+            <div class="container d-flex py-md-2 justify-content-between align-items-center">
+                <ul class="d-none d-md-flex">
+                    <li class="categories-item posrel dropdown-toggler">
+                        <a href="#" class="txt-white tr br bg-red" data-disable="true">
+                            <i class="fa fa-bars v-2 pl-6"></i>دسته بندی</a>
+                        <ul class="dropdown hideAnim posabs bg-white br">
+                            <li class="f-15 dropdown-toggler posrel">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr" data-disable="true">
+                                    <i class="fa fa-plug pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                    <i class="fa fa-angle-left posabs v-2"></i>
+                                </a>
+                                <ul class="hideAnim dropdown posabs bg-white br">
+                                    <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                class="fa fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                            ساختگی</a></li>
+                                    <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                class="far fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                            ساختگی</a></li>
+                                </ul>
+                            </li>
+                            <li class="f-15 dropdown-toggler posrel">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr" data-disable="true">
+                                    <i class="fa fa-atom pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                    <i class="fa fa-angle-left posabs"></i>
+                                </a>
+                                <ul class="hideAnim dropdown posabs bg-white br">
+                                    <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                class="fa fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                            ساختگی</a></li>
+                                    <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                class="far fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                            ساختگی</a></li>
+                                </ul>
+                            </li>
+                            <li class="f-15 dropdown-toggler posrel">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr" data-disable="true">
+                                    <i class="fa fa-power-off pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                    <i class="fa fa-angle-left posabs"></i>
+                                </a>
+                                <ul class="hideAnim dropdown posabs bg-white br">
+                                    <li class="posrel dropdown-toggler">
+                                        <a href="#" class="d-block pt-3 pb-2 c444 tr" data-disable="true">
+                                            <i class="fa fa-lightbulb v-2 pl-6"></i>
+                                            لورم اپیسورم ساختگی
+                                            <i class="fa fa-angle-left posabs"></i>
+                                        </a>
+                                        <ul class="hideAnim dropdown posabs bg-white br">
+                                            <li>
+                                                <a href="#" class="d-block pt-3 pb-2 c444 tr" data-disable="true">
+                                                    <i class="fa fa-plug v-2 pl-6"></i>
+                                                    متن ساختگی با تولید سادگی
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                                    <i class="fa fa-plug v-2 pl-6"></i>
+                                                    متن ساختگی با تولید سادگی
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="posrel dropdown-toggler">
+                                        <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                            <i class="fa fa-lightbulb v-2 pl-6"></i>
+                                            لورم اپیسورم ساختگی
+                                            <i class="fa fa-angle-left posabs"></i>
+                                        </a>
+                                        <ul class="hideAnim dropdown posabs bg-white br">
+                                            <li>
+                                                <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                                    <i class="fa fa-plug v-2 pl-6"></i>
+                                                    متن ساختگی با تولید سادگی
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                                    <i class="fa fa-plug v-2 pl-6"></i>
+                                                    متن ساختگی با تولید سادگی
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="f-15">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                    <i class="fa fa-battery-half pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                </a>
+                            </li>
+                            <li class="f-15">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                    <i class="fa fa-gas-pump pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                </a>
+                            </li>
+                            <li class="f-15">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                    <i class="fa fa-wind pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                </a>
+                            </li>
+                            <li class="f-15">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                    <i class="fa fa-solar-panel pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                </a>
+                            </li>
+                            <li class="f-15">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                    <i class="fa fa-radiation pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                </a>
+                            </li>
+                            <li class="f-15">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                    <i class="fa fa-seedling pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                </a>
+                            </li>
+                            <li class="f-15">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                    <i class="far fa-sun pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="txt-white tr">صفحه اصلی</a></li>
+                    <li><a href="#" class="txt-white tr">خدمات</a></li>
+                    <li><a href="#" class="txt-white tr">درباره ما</a></li>
+                    <li><a href="#" class="txt-white tr">تماس با ما</a></li>
+                </ul>
+                <div id="mobileNavigation_toggler" class="d-md-none">
+                    <button class="bg-tr cp f-28">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+                <div class="dropdown-toggler pl-4 posrel" id="productCount_cart">
+                    <button class="bg-tr c666 cp">
+                        <i class="fa f-21 fa-shopping-cart"></i>
+                        <span class="posabs f-12 br-circle txt-white">2</span>
+                    </button>
+                    <div class="dropdown custom-scroll tr bg-white posabs borderE br hideAnim">
+                        <ul>
+                            <li class="d-flex px-2 py-2  posrel border-topE">
+                                <div class="image-product-cart pl-3">
+                                    <img src="img/LED.jpg">
+                                </div>
+                                <div class="content-product-cart mt-1">
+                                    <h4 class="pb-6">لورم اپیسورم</h4>
+                                    <div class="c777 f-14 mt-1">
+                                        <span class="div-price">25000</span>
+                                        <span>تومان</span>
+                                    </div>
+                                    <div class="c777 f-13 mt-1">
+                                        <span class="persian-text">4</span>
+                                        <span>عدد</span>
+                                    </div>
+                                </div>
+                                <button class="remove-product-cart fade-hover cp posabs bg-tr txt-red">
+                                    <i class="fa fa-times"></i>
+                                </button>
+                            </li>
+                            <li class="d-flex px-2 py-2  posrel border-topE">
+                                <div class="image-product-cart pl-3">
+                                    <img src="img/cover-led.jpg">
+                                </div>
+                                <div class="content-product-cart mt-1">
+                                    <h4 class="pb-6">لورم اپیسورم</h4>
+                                    <div class="c777 f-14 mt-1">
+                                        <span class="div-price">15000</span>
+                                        <span>تومان</span>
+                                    </div>
+                                    <div class="c777 f-13 mt-1">
+                                        <span class="persian-text">2</span>
+                                        <span>عدد</span>
+                                    </div>
+                                </div>
+                                <button class="remove-product-cart fade-hover cp posabs bg-tr txt-red">
+                                    <i class="fa fa-times"></i>
+                                </button>
+                            </li>
+                            <li class="d-flex px-2 py-2  posrel border-topE">
+                                <div class="image-product-cart pl-3">
+                                    <img src="img/iphone.jpg">
+                                </div>
+                                <div class="content-product-cart mt-1">
+                                    <h4 class="pb-6">لورم اپیسورم</h4>
+                                    <div class="c777 f-14 mt-1">
+                                        <span class="div-price">12000</span>
+                                        <span>تومان</span>
+                                    </div>
+                                    <div class="c777 f-13 mt-1">
+                                        <span class="persian-text">3</span>
+                                        <span>عدد</span>
+                                    </div>
+                                </div>
+                                <button class="remove-product-cart fade-hover cp posabs bg-tr txt-red">
+                                    <i class="fa fa-times"></i>
+                                </button>
+                            </li>
+                        </ul>
+                        <a href="#" class="w-100 continue-product-cart txt-center txt-white br d-block fade-hover">
+                            ادامه
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section id="navigation_mobile" class="d-none">
+            <div class="wrapper-all h-100 tr hideAnim">
+                <nav class="wrapper-nav posrel bg-white h-100 custom-scroll">
+                    <div class="logo txt-center my-2">
+                        <a href="#">
+                            <img src="img/logo.png" alt="logo" width="160" height="65">
+                        </a>
+                    </div>
+                    <div class="search-box">
+                        <form action="#">
+                            <div class="d-flex">
+                                <input type="text" class="w-100 p-2 borderC" placeholder="متن جستجو را وارد کنید...">
+                                <button class="txt-white cp br">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <ul class="px-12 py-3">
+                        <li class="mb-3"><a href="#">صفحه اصلی</a></li>
+                        <li class="posrel categories-item txt-white br dropdown-toggler mb-3">
+                            <a href="#" class="txt-white d-flex justify-content-between br" data-disable="true"> دسته
+                                بندی <i class="fa fa-angle-down mt-1"></i> </a>
+                            <ul class="dropdown d-none hideAnim bg-white br">
+                                <li class="f-15 dropdown-toggler posrel">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr" data-disable="true">
+                                        <i class="fa fa-plug pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                    <i class="fa fa-angle-down posabs"></i>
+                                    <ul class="hideAnim d-none dropdown bg-white br">
+                                        <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                    class="fa fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                                ساختگی</a></li>
+                                        <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                    class="far fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                                ساختگی</a></li>
+                                    </ul>
+                                </li>
+                                <li class="f-15 dropdown-toggler posrel">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr" data-disable="true">
+                                        <i class="fa fa-atom pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                    <i class="fa fa-angle-down posabs"></i>
+                                    <ul class="hideAnim d-none dropdown bg-white br">
+                                        <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                    class="fa fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                                ساختگی</a></li>
+                                        <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                    class="far fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                                ساختگی</a></li>
+                                    </ul>
+                                </li>
+                                <li class="f-15 dropdown-toggler posrel">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr" data-disable="true">
+                                        <i class="fa fa-power-off pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                    <i class="fa fa-angle-down posabs"></i>
+                                    <ul class="hideAnim d-none dropdown bg-white br">
+                                        <li class="posrel dropdown-toggler">
+                                            <a href="#" class="d-block pt-3 pb-2 c444 tr" data-disable="true">
+                                                <i class="fa fa-lightbulb v-2 pl-6"></i>
+                                                لورم اپیسورم ساختگی
+                                            </a>
+                                            <i class="fa fa-angle-down posabs"></i>
+                                            <ul class="hideAnim d-none dropdown bg-white br">
+                                                <li>
+                                                    <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                                        <i class="fa fa-plug v-2 pl-6"></i>
+                                                        متن ساختگی با تولید سادگی
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                                        <i class="fa fa-plug v-2 pl-6"></i>
+                                                        متن ساختگی با تولید سادگی
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="posrel dropdown-toggler">
+                                            <a href="#" class="d-block pt-3 pb-2 c444 tr" data-disable="true">
+                                                <i class="fa fa-lightbulb v-2 pl-6"></i>
+                                                لورم اپیسورم ساختگی
+                                            </a>
+                                            <i class="fa fa-angle-down posabs"></i>
+                                            <ul class="hideAnim d-none dropdown bg-white br">
+                                                <li>
+                                                    <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                                        <i class="fa fa-plug v-2 pl-6"></i>
+                                                        متن ساختگی با تولید سادگی
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                                        <i class="fa fa-plug v-2 pl-6"></i>
+                                                        متن ساختگی با تولید سادگی
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="f-15">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                        <i class="fa fa-battery-half pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                </li>
+                                <li class="f-15">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                        <i class="fa fa-gas-pump pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                </li>
+                                <li class="f-15">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                        <i class="fa fa-wind pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                </li>
+                                <li class="f-15">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                        <i class="fa fa-solar-panel pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>-
+                                </li>
+                                <li class="f-15">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                        <i class="fa fa-radiation pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                </li>
+                                <li class="f-15">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                        <i class="fa fa-seedling pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                </li>
+                                <li class="f-15">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                        <i class="far fa-sun pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mb-3"> <a href="#">درباره ما</a> </li>
+                        <li class="mb-3"><a href="#">تماس باما</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row justify-content-center py-5">
+                <section id="product_list" class="col-12 col-md-10 col-lg-8 py-5">
+                    <div class="wrapper">
+                        <ul>
+                            <li class="cart-item posrel border-bottomE py-3">
+                                <a href="#" title="حذف"><i class="fa fa-times f-16 txt-red"></i></a>
+                                <div class="row justify-content-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="img/cart1.jpg" alt="sumbail product image" class="w-100 borderE br">
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <p class="f-18">لورم اپیسورم متن ساختگی با تولید سادگی</p>
+                                        <p class="f-15 my-3 py-1">
+                                            <svg class="v-8" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0"
+                                                viewBox="0 0 454.656 454.656" style="enable-background:new 0 0 512 512"
+                                                xml:space="preserve">
+                                                <g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                        <g>
+                                                            <path
+                                                                d="M454.656,227.584l-38.912-50.688l8.704-62.976l-59.392-23.552l-23.552-59.392l-62.976,8.704l-51.2-39.424L176.64,39.168    l-62.976-8.704L90.112,89.856L30.72,113.408l8.704,62.976L0,227.584l38.912,50.688l-8.704,62.976L89.6,364.8l23.552,59.392    l62.976-8.704l50.688,38.912l50.688-38.912l62.976,8.704l23.552-59.392l59.392-24.064l-8.704-62.976L454.656,227.584z     M208.896,301.312l-75.776-62.464l16.384-19.968l56.32,46.08l96.256-111.104l19.456,16.896L208.896,301.312z"
+                                                                fill="#ff324d" data-original="#000000" style=""
+                                                                class=""></path>
+                                                        </g>
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            گارانتی با اصالت فاز برق
+                                        </p>
+                                        <div class="count-product d-flex align-items-center">
+                                            <button class="minus-btn c555 fade-hover button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-minus"></i>
+                                            </button>
+                                            <input type="text" autocomplete="off" id="inputCount_product"
+                                                class="borderC f-17 c222 txt-center mr-12 inputCount-product"
+                                                data-valid="number" value="1">
+                                            <button class="plus-btn c555 fade-hover mr-12 button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <div class="pl-3 price">
+                                            <div class="txt-left f-14 pl-1 dark-blue">
+                                                <span class="fa fa-percent f-13"></span>
+                                                <span class="persian-text">10</span>
+                                                <span class="pr-1">تخفیف</span>
+                                            </div>
+                                            <div class="txt-left f-19 mt-2 txt-red">
+                                                <div class="d-inline-block border-topD py-2">
+                                                    <span class="persian-number">12000</span>
+                                                    <span>تومان</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="cart-item posrel border-bottomE py-3">
+                                <a href="#" title="حذف"><i class="fa fa-times f-16 txt-red"></i></a>
+                                <div class="row justify-content-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="img/cart1.jpg" alt="sumbail product image" class="w-100 borderE br">
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <p class="f-18">لورم اپیسورم متن ساختگی با تولید سادگی</p>
+                                        <p class="f-15 my-3 py-1">
+                                            <svg class="v-8" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0"
+                                                viewBox="0 0 454.656 454.656" style="enable-background:new 0 0 512 512"
+                                                xml:space="preserve">
+                                                <g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                        <g>
+                                                            <path
+                                                                d="M454.656,227.584l-38.912-50.688l8.704-62.976l-59.392-23.552l-23.552-59.392l-62.976,8.704l-51.2-39.424L176.64,39.168    l-62.976-8.704L90.112,89.856L30.72,113.408l8.704,62.976L0,227.584l38.912,50.688l-8.704,62.976L89.6,364.8l23.552,59.392    l62.976-8.704l50.688,38.912l50.688-38.912l62.976,8.704l23.552-59.392l59.392-24.064l-8.704-62.976L454.656,227.584z     M208.896,301.312l-75.776-62.464l16.384-19.968l56.32,46.08l96.256-111.104l19.456,16.896L208.896,301.312z"
+                                                                fill="#ff324d" data-original="#000000" style=""
+                                                                class=""></path>
+                                                        </g>
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            گارانتی با اصالت فاز برق
+                                        </p>
+                                        <div class="count-product d-flex align-items-center">
+                                            <button class="minus-btn c555 fade-hover button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-minus"></i>
+                                            </button>
+                                            <input type="text" autocomplete="off" id="inputCount_product"
+                                                class="borderC f-17 c222 txt-center mr-12 inputCount-product"
+                                                data-valid="number" value="1">
+                                            <button class="plus-btn c555 fade-hover mr-12 button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <div class="pl-3 price">
+                                            <div class="txt-left f-14 pl-1 dark-blue">
+                                                <span class="fa fa-percent f-13"></span>
+                                                <span class="persian-text">10</span>
+                                                <span class="pr-1">تخفیف</span>
+                                            </div>
+                                            <div class="txt-left f-19 mt-2 txt-red">
+                                                <div class="d-inline-block border-topD py-2">
+                                                    <span class="persian-number">12000</span>
+                                                    <span>تومان</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="cart-item posrel border-bottomE py-3">
+                                <a href="#" title="حذف"><i class="fa fa-times f-16 txt-red"></i></a>
+                                <div class="row justify-content-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="img/cart1.jpg" alt="sumbail product image" class="w-100 borderE br">
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <p class="f-18">لورم اپیسورم متن ساختگی با تولید سادگی</p>
+                                        <p class="f-15 my-3 py-1">
+                                            <svg class="v-8" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0"
+                                                viewBox="0 0 454.656 454.656" style="enable-background:new 0 0 512 512"
+                                                xml:space="preserve">
+                                                <g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                        <g>
+                                                            <path
+                                                                d="M454.656,227.584l-38.912-50.688l8.704-62.976l-59.392-23.552l-23.552-59.392l-62.976,8.704l-51.2-39.424L176.64,39.168    l-62.976-8.704L90.112,89.856L30.72,113.408l8.704,62.976L0,227.584l38.912,50.688l-8.704,62.976L89.6,364.8l23.552,59.392    l62.976-8.704l50.688,38.912l50.688-38.912l62.976,8.704l23.552-59.392l59.392-24.064l-8.704-62.976L454.656,227.584z     M208.896,301.312l-75.776-62.464l16.384-19.968l56.32,46.08l96.256-111.104l19.456,16.896L208.896,301.312z"
+                                                                fill="#ff324d" data-original="#000000" style=""
+                                                                class=""></path>
+                                                        </g>
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            گارانتی با اصالت فاز برق
+                                        </p>
+                                        <div class="count-product d-flex align-items-center">
+                                            <button class="minus-btn c555 fade-hover button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-minus"></i>
+                                            </button>
+                                            <input type="text" autocomplete="off" id="inputCount_product"
+                                                class="borderC f-17 c222 txt-center mr-12 inputCount-product"
+                                                data-valid="number" value="1">
+                                            <button class="plus-btn c555 fade-hover mr-12 button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <div class="pl-3 price">
+                                            <div class="txt-left f-14 pl-1 dark-blue">
+                                                <span class="fa fa-percent f-13"></span>
+                                                <span class="persian-text">10</span>
+                                                <span class="pr-1">تخفیف</span>
+                                            </div>
+                                            <div class="txt-left f-19 mt-2 txt-red">
+                                                <div class="d-inline-block border-topD py-2">
+                                                    <span class="persian-number">12000</span>
+                                                    <span>تومان</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="cart-item posrel border-bottomE py-3">
+                                <a href="#" title="حذف"><i class="fa fa-times f-16 txt-red"></i></a>
+                                <div class="row justify-content-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="img/cart1.jpg" alt="sumbail product image" class="w-100 borderE br">
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <p class="f-18">لورم اپیسورم متن ساختگی با تولید سادگی</p>
+                                        <p class="f-15 my-3 py-1">
+                                            <svg class="v-8" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0"
+                                                viewBox="0 0 454.656 454.656" style="enable-background:new 0 0 512 512"
+                                                xml:space="preserve">
+                                                <g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                        <g>
+                                                            <path
+                                                                d="M454.656,227.584l-38.912-50.688l8.704-62.976l-59.392-23.552l-23.552-59.392l-62.976,8.704l-51.2-39.424L176.64,39.168    l-62.976-8.704L90.112,89.856L30.72,113.408l8.704,62.976L0,227.584l38.912,50.688l-8.704,62.976L89.6,364.8l23.552,59.392    l62.976-8.704l50.688,38.912l50.688-38.912l62.976,8.704l23.552-59.392l59.392-24.064l-8.704-62.976L454.656,227.584z     M208.896,301.312l-75.776-62.464l16.384-19.968l56.32,46.08l96.256-111.104l19.456,16.896L208.896,301.312z"
+                                                                fill="#ff324d" data-original="#000000" style=""
+                                                                class=""></path>
+                                                        </g>
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            گارانتی با اصالت فاز برق
+                                        </p>
+                                        <div class="count-product d-flex align-items-center">
+                                            <button class="minus-btn c555 fade-hover button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-minus"></i>
+                                            </button>
+                                            <input type="text" autocomplete="off" id="inputCount_product"
+                                                class="borderC f-17 c222 txt-center mr-12 inputCount-product"
+                                                data-valid="number" value="1">
+                                            <button class="plus-btn c555 fade-hover mr-12 button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <div class="pl-3 price">
+                                            <div class="txt-left f-14 pl-1 dark-blue">
+                                                <span class="fa fa-percent f-13"></span>
+                                                <span class="persian-text">10</span>
+                                                <span class="pr-1">تخفیف</span>
+                                            </div>
+                                            <div class="txt-left f-19 mt-2 txt-red">
+                                                <div class="d-inline-block border-topD py-2">
+                                                    <span class="persian-number">12000</span>
+                                                    <span>تومان</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="cart-item posrel border-bottomE py-3">
+                                <a href="#" title="حذف"><i class="fa fa-times f-16 txt-red"></i></a>
+                                <div class="row justify-content-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="img/cart1.jpg" alt="sumbail product image" class="w-100 borderE br">
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <p class="f-18">لورم اپیسورم متن ساختگی با تولید سادگی</p>
+                                        <p class="f-15 my-3 py-1">
+                                            <svg class="v-8" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0"
+                                                viewBox="0 0 454.656 454.656" style="enable-background:new 0 0 512 512"
+                                                xml:space="preserve">
+                                                <g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                        <g>
+                                                            <path
+                                                                d="M454.656,227.584l-38.912-50.688l8.704-62.976l-59.392-23.552l-23.552-59.392l-62.976,8.704l-51.2-39.424L176.64,39.168    l-62.976-8.704L90.112,89.856L30.72,113.408l8.704,62.976L0,227.584l38.912,50.688l-8.704,62.976L89.6,364.8l23.552,59.392    l62.976-8.704l50.688,38.912l50.688-38.912l62.976,8.704l23.552-59.392l59.392-24.064l-8.704-62.976L454.656,227.584z     M208.896,301.312l-75.776-62.464l16.384-19.968l56.32,46.08l96.256-111.104l19.456,16.896L208.896,301.312z"
+                                                                fill="#ff324d" data-original="#000000" style=""
+                                                                class=""></path>
+                                                        </g>
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            گارانتی با اصالت فاز برق
+                                        </p>
+                                        <div class="count-product d-flex align-items-center">
+                                            <button class="minus-btn c555 fade-hover button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-minus"></i>
+                                            </button>
+                                            <input type="text" autocomplete="off" id="inputCount_product"
+                                                class="borderC f-17 c222 txt-center mr-12 inputCount-product"
+                                                data-valid="number" value="1">
+                                            <button class="plus-btn c555 fade-hover mr-12 button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <div class="pl-3 price">
+                                            <div class="txt-left f-14 pl-1 dark-blue">
+                                                <span class="fa fa-percent f-13"></span>
+                                                <span class="persian-text">10</span>
+                                                <span class="pr-1">تخفیف</span>
+                                            </div>
+                                            <div class="txt-left f-19 mt-2 txt-red">
+                                                <div class="d-inline-block border-topD py-2">
+                                                    <span class="persian-number">12000</span>
+                                                    <span>تومان</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="cart-item posrel border-bottomE py-3">
+                                <a href="#" title="حذف"><i class="fa fa-times f-16 txt-red"></i></a>
+                                <div class="row justify-content-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="img/cart1.jpg" alt="sumbail product image" class="w-100 borderE br">
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <p class="f-18">لورم اپیسورم متن ساختگی با تولید سادگی</p>
+                                        <p class="f-15 my-3 py-1">
+                                            <svg class="v-8" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0"
+                                                viewBox="0 0 454.656 454.656" style="enable-background:new 0 0 512 512"
+                                                xml:space="preserve">
+                                                <g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                        <g>
+                                                            <path
+                                                                d="M454.656,227.584l-38.912-50.688l8.704-62.976l-59.392-23.552l-23.552-59.392l-62.976,8.704l-51.2-39.424L176.64,39.168    l-62.976-8.704L90.112,89.856L30.72,113.408l8.704,62.976L0,227.584l38.912,50.688l-8.704,62.976L89.6,364.8l23.552,59.392    l62.976-8.704l50.688,38.912l50.688-38.912l62.976,8.704l23.552-59.392l59.392-24.064l-8.704-62.976L454.656,227.584z     M208.896,301.312l-75.776-62.464l16.384-19.968l56.32,46.08l96.256-111.104l19.456,16.896L208.896,301.312z"
+                                                                fill="#ff324d" data-original="#000000" style=""
+                                                                class=""></path>
+                                                        </g>
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            گارانتی با اصالت فاز برق
+                                        </p>
+                                        <div class="count-product d-flex align-items-center">
+                                            <button class="minus-btn c555 fade-hover button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-minus"></i>
+                                            </button>
+                                            <input type="text" autocomplete="off" id="inputCount_product"
+                                                class="borderC f-17 c222 txt-center mr-12 inputCount-product"
+                                                data-valid="number" value="1">
+                                            <button class="plus-btn c555 fade-hover mr-12 button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <div class="pl-3 price">
+                                            <div class="txt-left f-14 pl-1 dark-blue">
+                                                <span class="fa fa-percent f-13"></span>
+                                                <span class="persian-text">10</span>
+                                                <span class="pr-1">تخفیف</span>
+                                            </div>
+                                            <div class="txt-left f-19 mt-2 txt-red">
+                                                <div class="d-inline-block border-topD py-2">
+                                                    <span class="persian-number">12000</span>
+                                                    <span>تومان</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="cart-item posrel border-bottomE py-3">
+                                <a href="#" title="حذف"><i class="fa fa-times f-16 txt-red"></i></a>
+                                <div class="row justify-content-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="img/cart1.jpg" alt="sumbail product image" class="w-100 borderE br">
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <p class="f-18">لورم اپیسورم متن ساختگی با تولید سادگی</p>
+                                        <p class="f-15 my-3 py-1">
+                                            <svg class="v-8" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0"
+                                                viewBox="0 0 454.656 454.656" style="enable-background:new 0 0 512 512"
+                                                xml:space="preserve">
+                                                <g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                        <g>
+                                                            <path
+                                                                d="M454.656,227.584l-38.912-50.688l8.704-62.976l-59.392-23.552l-23.552-59.392l-62.976,8.704l-51.2-39.424L176.64,39.168    l-62.976-8.704L90.112,89.856L30.72,113.408l8.704,62.976L0,227.584l38.912,50.688l-8.704,62.976L89.6,364.8l23.552,59.392    l62.976-8.704l50.688,38.912l50.688-38.912l62.976,8.704l23.552-59.392l59.392-24.064l-8.704-62.976L454.656,227.584z     M208.896,301.312l-75.776-62.464l16.384-19.968l56.32,46.08l96.256-111.104l19.456,16.896L208.896,301.312z"
+                                                                fill="#ff324d" data-original="#000000" style=""
+                                                                class=""></path>
+                                                        </g>
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            گارانتی با اصالت فاز برق
+                                        </p>
+                                        <div class="count-product d-flex align-items-center">
+                                            <button class="minus-btn c555 fade-hover button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-minus"></i>
+                                            </button>
+                                            <input type="text" autocomplete="off" id="inputCount_product"
+                                                class="borderC f-17 c222 txt-center mr-12 inputCount-product"
+                                                data-valid="number" value="1">
+                                            <button class="plus-btn c555 fade-hover mr-12 button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <div class="pl-3 price">
+                                            <div class="txt-left f-14 pl-1 dark-blue">
+                                                <span class="fa fa-percent f-13"></span>
+                                                <span class="persian-text">10</span>
+                                                <span class="pr-1">تخفیف</span>
+                                            </div>
+                                            <div class="txt-left f-19 mt-2 txt-red">
+                                                <div class="d-inline-block border-topD py-2">
+                                                    <span class="persian-number">12000</span>
+                                                    <span>تومان</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="cart-item posrel border-bottomE py-3">
+                                <a href="#" title="حذف"><i class="fa fa-times f-16 txt-red"></i></a>
+                                <div class="row justify-content-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="img/cart1.jpg" alt="sumbail product image" class="w-100 borderE br">
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <p class="f-18">لورم اپیسورم متن ساختگی با تولید سادگی</p>
+                                        <p class="f-15 my-3 py-1">
+                                            <svg class="v-8" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0"
+                                                viewBox="0 0 454.656 454.656" style="enable-background:new 0 0 512 512"
+                                                xml:space="preserve">
+                                                <g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                        <g>
+                                                            <path
+                                                                d="M454.656,227.584l-38.912-50.688l8.704-62.976l-59.392-23.552l-23.552-59.392l-62.976,8.704l-51.2-39.424L176.64,39.168    l-62.976-8.704L90.112,89.856L30.72,113.408l8.704,62.976L0,227.584l38.912,50.688l-8.704,62.976L89.6,364.8l23.552,59.392    l62.976-8.704l50.688,38.912l50.688-38.912l62.976,8.704l23.552-59.392l59.392-24.064l-8.704-62.976L454.656,227.584z     M208.896,301.312l-75.776-62.464l16.384-19.968l56.32,46.08l96.256-111.104l19.456,16.896L208.896,301.312z"
+                                                                fill="#ff324d" data-original="#000000" style=""
+                                                                class=""></path>
+                                                        </g>
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            گارانتی با اصالت فاز برق
+                                        </p>
+                                        <div class="count-product d-flex align-items-center">
+                                            <button class="minus-btn c555 fade-hover button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-minus"></i>
+                                            </button>
+                                            <input type="text" autocomplete="off" id="inputCount_product"
+                                                class="borderC f-17 c222 txt-center mr-12 inputCount-product"
+                                                data-valid="number" value="1">
+                                            <button class="plus-btn c555 fade-hover mr-12 button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <div class="pl-3 price">
+                                            <div class="txt-left f-14 pl-1 dark-blue">
+                                                <span class="fa fa-percent f-13"></span>
+                                                <span class="persian-text">10</span>
+                                                <span class="pr-1">تخفیف</span>
+                                            </div>
+                                            <div class="txt-left f-19 mt-2 txt-red">
+                                                <div class="d-inline-block border-topD py-2">
+                                                    <span class="persian-number">12000</span>
+                                                    <span>تومان</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="cart-item posrel border-bottomE py-3">
+                                <a href="#" title="حذف"><i class="fa fa-times f-16 txt-red"></i></a>
+                                <div class="row justify-content-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="img/cart1.jpg" alt="sumbail product image" class="w-100 borderE br">
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <p class="f-18">لورم اپیسورم متن ساختگی با تولید سادگی</p>
+                                        <p class="f-15 my-3 py-1">
+                                            <svg class="v-8" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0"
+                                                viewBox="0 0 454.656 454.656" style="enable-background:new 0 0 512 512"
+                                                xml:space="preserve">
+                                                <g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                        <g>
+                                                            <path
+                                                                d="M454.656,227.584l-38.912-50.688l8.704-62.976l-59.392-23.552l-23.552-59.392l-62.976,8.704l-51.2-39.424L176.64,39.168    l-62.976-8.704L90.112,89.856L30.72,113.408l8.704,62.976L0,227.584l38.912,50.688l-8.704,62.976L89.6,364.8l23.552,59.392    l62.976-8.704l50.688,38.912l50.688-38.912l62.976,8.704l23.552-59.392l59.392-24.064l-8.704-62.976L454.656,227.584z     M208.896,301.312l-75.776-62.464l16.384-19.968l56.32,46.08l96.256-111.104l19.456,16.896L208.896,301.312z"
+                                                                fill="#ff324d" data-original="#000000" style=""
+                                                                class=""></path>
+                                                        </g>
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            گارانتی با اصالت فاز برق
+                                        </p>
+                                        <div class="count-product d-flex align-items-center">
+                                            <button class="minus-btn c555 fade-hover button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-minus"></i>
+                                            </button>
+                                            <input type="text" autocomplete="off" id="inputCount_product"
+                                                class="borderC f-17 c222 txt-center mr-12 inputCount-product"
+                                                data-valid="number" value="1">
+                                            <button class="plus-btn c555 fade-hover mr-12 button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <div class="pl-3 price">
+                                            <div class="txt-left f-14 pl-1 dark-blue">
+                                                <span class="fa fa-percent f-13"></span>
+                                                <span class="persian-text">10</span>
+                                                <span class="pr-1">تخفیف</span>
+                                            </div>
+                                            <div class="txt-left f-19 mt-2 txt-red">
+                                                <div class="d-inline-block border-topD py-2">
+                                                    <span class="persian-number">12000</span>
+                                                    <span>تومان</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="cart-item posrel border-bottomE py-3">
+                                <a href="#" title="حذف"><i class="fa fa-times f-16 txt-red"></i></a>
+                                <div class="row justify-content-center">
+                                    <div class="col-5 col-md-2">
+                                        <img src="img/cart1.jpg" alt="sumbail product image" class="w-100 borderE br">
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <p class="f-18">لورم اپیسورم متن ساختگی با تولید سادگی</p>
+                                        <p class="f-15 my-3 py-1">
+                                            <svg class="v-8" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" x="0" y="0"
+                                                viewBox="0 0 454.656 454.656" style="enable-background:new 0 0 512 512"
+                                                xml:space="preserve">
+                                                <g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                        <g>
+                                                            <path
+                                                                d="M454.656,227.584l-38.912-50.688l8.704-62.976l-59.392-23.552l-23.552-59.392l-62.976,8.704l-51.2-39.424L176.64,39.168    l-62.976-8.704L90.112,89.856L30.72,113.408l8.704,62.976L0,227.584l38.912,50.688l-8.704,62.976L89.6,364.8l23.552,59.392    l62.976-8.704l50.688,38.912l50.688-38.912l62.976,8.704l23.552-59.392l59.392-24.064l-8.704-62.976L454.656,227.584z     M208.896,301.312l-75.776-62.464l16.384-19.968l56.32,46.08l96.256-111.104l19.456,16.896L208.896,301.312z"
+                                                                fill="#ff324d" data-original="#000000" style=""
+                                                                class=""></path>
+                                                        </g>
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                    <g xmlns="http://www.w3.org/2000/svg">
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            گارانتی با اصالت فاز برق
+                                        </p>
+                                        <div class="count-product d-flex align-items-center">
+                                            <button class="minus-btn c555 fade-hover button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-minus"></i>
+                                            </button>
+                                            <input type="text" autocomplete="off" id="inputCount_product"
+                                                class="borderC f-17 c222 txt-center mr-12 inputCount-product"
+                                                data-valid="number" value="1">
+                                            <button class="plus-btn c555 fade-hover mr-12 button borderD br-circle px-2"
+                                                data-target="#inputCount_product">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <div class="pl-3 price">
+                                            <div class="txt-left f-14 pl-1 dark-blue">
+                                                <span class="fa fa-percent f-13"></span>
+                                                <span class="persian-text">10</span>
+                                                <span class="pr-1">تخفیف</span>
+                                            </div>
+                                            <div class="txt-left f-19 mt-2 txt-red">
+                                                <div class="d-inline-block border-topD py-2">
+                                                    <span class="persian-number">12000</span>
+                                                    <span>تومان</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>                            
+                        </ul>
+                        <!-- <div class="mt-4 pt-3 pr-md-4">
+                            <button class="button dark-button update-cart py-10 tr">
+                                <svg version="1.1" class="txt-inherit tr v-6 pl-1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 489.711 489.711" style="enable-background:new 0 0 489.711 489.711;"
+                                    xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M112.156,97.111c72.3-65.4,180.5-66.4,253.8-6.7l-58.1,2.2c-7.5,0.3-13.3,6.5-13,14c0.3,7.3,6.3,13,13.5,13
+			c0.2,0,0.3,0,0.5,0l89.2-3.3c7.3-0.3,13-6.2,13-13.5v-1c0-0.2,0-0.3,0-0.5v-0.1l0,0l-3.3-88.2c-0.3-7.5-6.6-13.3-14-13
+			c-7.5,0.3-13.3,6.5-13,14l2.1,55.3c-36.3-29.7-81-46.9-128.8-49.3c-59.2-3-116.1,17.3-160,57.1c-60.4,54.7-86,137.9-66.8,217.1
+			c1.5,6.2,7,10.3,13.1,10.3c1.1,0,2.1-0.1,3.2-0.4c7.2-1.8,11.7-9.1,9.9-16.3C36.656,218.211,59.056,145.111,112.156,97.111z" />
+                                            <path d="M462.456,195.511c-1.8-7.2-9.1-11.7-16.3-9.9c-7.2,1.8-11.7,9.1-9.9,16.3c16.9,69.6-5.6,142.7-58.7,190.7
+			c-37.3,33.7-84.1,50.3-130.7,50.3c-44.5,0-88.9-15.1-124.7-44.9l58.8-5.3c7.4-0.7,12.9-7.2,12.2-14.7s-7.2-12.9-14.7-12.2l-88.9,8
+			c-7.4,0.7-12.9,7.2-12.2,14.7l8,88.9c0.6,7,6.5,12.3,13.4,12.3c0.4,0,0.8,0,1.2-0.1c7.4-0.7,12.9-7.2,12.2-14.7l-4.8-54.1
+			c36.3,29.4,80.8,46.5,128.3,48.9c3.8,0.2,7.6,0.3,11.3,0.3c55.1,0,107.5-20.2,148.7-57.4
+			C456.056,357.911,481.656,274.811,462.456,195.511z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                </svg>
+                                آپدیت سبد خرید
+                            </button>
+                        </div> -->
+                    </div>
+                </section>
+                <section id="finished_shopping" class="col-12 posrel col-md-8 col-lg-4">
+                    <div class="posstick tr">
+                        <div class="w-100">
+                            <div class="wrapper borderD p-3 br txt-center">
+                                <ul class="f-17">
+                                    <li class="d-flex py-3 border-bottomE">
+                                        <p class="c666 w-50">تعداد محصولات</p>
+                                        <p class="c222 w-50 persian-text">12</p>
+                                    </li>
+                                    <li class="d-flex py-3 border-bottomE">
+                                        <p class="c666 w-50">قیمت کل</p>
+                                        <p class="c222 w-50">
+                                            <span class="persian-number">512000</span>
+                                            <span>تومان</span>
+                                        </p>
+                                    </li>
+                                    <li class="d-flex py-3 border-bottomE">
+                                        <p class="c666 w-50">میزان تخفیف</p>
+                                        <p class="w-50 txt-green">
+                                            <span class="bold">%</span>
+                                            <span class="persian-number">20</span>
+                                        </p>
+                                    </li>
+                                    <li class="d-flex py-3 border-bottomE">
+                                        <p class="c666 w-50">قیمت نهایی</p>
+                                        <p class="w-50 txt-blue">
+                                            <span class="persian-number">256000</span>
+                                            <span>تومان</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                                <div class="mt-4">
+                                    <a href="#" class="txt-red br tr bg-white posrel custom-btn d-inline-block">
+                                        ادامه ثبت سفارش
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-100">
+                            <p class="dark-blue f-18 mt-4 mb-3">
+                                کد تخفیف دارید؟
+                            </p>
+                            <form action="#" id="copenCart_form">
+                                <div class="d-flex">
+                                    <div class="w-100 ml--3">
+                                        <input autocomplete="off" name="input_copen" name="input_copen" type="text"
+                                            class="input mb-2 py-4 f-16" placeholder="کد تخفیف را وارد کنید...">
+                                    </div>
+                                    <button class="button bg-white txt-red tr f-16">
+                                        <svg version="1.1" class="tr v-6" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 489.711 489.711"
+                                            style="enable-background:new 0 0 489.711 489.711;" xml:space="preserve">
+                                            <g>
+                                                <g>
+                                                    <path
+                                                        d="M112.156,97.111c72.3-65.4,180.5-66.4,253.8-6.7l-58.1,2.2c-7.5,0.3-13.3,6.5-13,14c0.3,7.3,6.3,13,13.5,13
+                c0.2,0,0.3,0,0.5,0l89.2-3.3c7.3-0.3,13-6.2,13-13.5v-1c0-0.2,0-0.3,0-0.5v-0.1l0,0l-3.3-88.2c-0.3-7.5-6.6-13.3-14-13
+                c-7.5,0.3-13.3,6.5-13,14l2.1,55.3c-36.3-29.7-81-46.9-128.8-49.3c-59.2-3-116.1,17.3-160,57.1c-60.4,54.7-86,137.9-66.8,217.1
+                c1.5,6.2,7,10.3,13.1,10.3c1.1,0,2.1-0.1,3.2-0.4c7.2-1.8,11.7-9.1,9.9-16.3C36.656,218.211,59.056,145.111,112.156,97.111z" />
+                                                    <path d="M462.456,195.511c-1.8-7.2-9.1-11.7-16.3-9.9c-7.2,1.8-11.7,9.1-9.9,16.3c16.9,69.6-5.6,142.7-58.7,190.7
+                c-37.3,33.7-84.1,50.3-130.7,50.3c-44.5,0-88.9-15.1-124.7-44.9l58.8-5.3c7.4-0.7,12.9-7.2,12.2-14.7s-7.2-12.9-14.7-12.2l-88.9,8
+                c-7.4,0.7-12.9,7.2-12.2,14.7l8,88.9c0.6,7,6.5,12.3,13.4,12.3c0.4,0,0.8,0,1.2-0.1c7.4-0.7,12.9-7.2,12.2-14.7l-4.8-54.1
+                c36.3,29.4,80.8,46.5,128.3,48.9c3.8,0.2,7.6,0.3,11.3,0.3c55.1,0,107.5-20.2,148.7-57.4
+                C456.056,357.911,481.656,274.811,462.456,195.511z" />
+                                                </g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                            <g>
+                                            </g>
+                                        </svg>
+                                        اعمال
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer id="native_footer">
+        <div class="bg">
+            <div class="container py-5 mt-5">
+                <div class="row">
+                    <div class="col-md-4 mb-4 mt-3">
+                        <div>
+                            <p>
+                                <i class="fa fa-map-marker-alt pl-2 v-1"></i>
+                                اصفهان ، خمینی شهر ، بلوار توحید
+                            </p>
+                        </div>
+                        <div class="mt-3">
+                            <p>
+                                <i class="fa fa-phone pl-2 v-1"></i>
+                                09132025022
+                            </p>
+                        </div>
+                        <div class="mt-3">
+                            <p>
+                                <i class="fa fa-envelope pl-2 v-1"></i>
+                                FazBargh@gmail.com
+                            </p>
+                        </div>
+                        <div class="mt-3">
+                            <p class="mb-3 pl-md-5">برای اطلاع از جدیدترین تخفیف ها و جشنواره ها در خبرنامه عضو شوید.
+                            </p>
+                            <form action="#" id="join_newser">
+                                <div class="d-flex col-lg-9 ml-auto pl-3 pr-0">
+                                    <input type="text" class="w-100 p-2" placeholder="آدرس ایمیل...">
+                                    <button class="bg-red txt-white fade-hover cp tr"><i
+                                            class="fa fa-check"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 mt-3">
+                        <ul id="link_shortcut" class="pr-4 pr-md-5">
+                            <li class="posrel mb-3"><a href="#" class="d-block tr">صفحه اصلی</a></li>
+                            <li class="posrel mb-3"><a href="#" class="d-block tr">محصولات</a></li>
+                            <li class="posrel mb-3"><a href="#" class="d-block tr">درباره ما</a></li>
+                            <li class="posrel mb-3"><a href="#" class="d-block tr">تماس باما</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4 mt-3">
+                        <div>
+                            <p>فاز برق را در شبکه های اجتماعی دنبال کنید.</p>
+                            <ul id="social_media" class="d-flex pr-5 mt-4">
+                                <li class="f-25 pl-3"><a href="#" class="tr"><i class="fab fa-telegram"></i></a>
+                                </li>
+                                <li class="f-25 pl-3"><a href="#" class="tr"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="f-25 pl-3"><a href="#" class="tr"><i class="fab fa-twitter"></i></a></li>
+                                <li class="f-25 pl-3"><a href="#" class="tr"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <div>
+                            <img src="img/namad1.png" alt="namad">
+                            <img src="img/namad2.png" alt="namad">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyRight py-2">
+            <p class="txt-white py-1 txt-center f-14">
+                <i class="fa pl-6 v-2 fa-copyright"></i>تمامی حقوق این وبسایت برای فاز برق محفوظ می باشد.
+            </p>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

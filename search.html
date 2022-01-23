@@ -1,0 +1,1011 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جستجوی کالا</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="bg-white py-6 border-bottomE">
+        <div class="container">
+            <div class="row my-3">
+                <div class="col-6 col-md-4">
+                    <a href="/" class="logo">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="col-4 p-0 d-none d-md-block">
+                    <div class="d-flex mt-2 borderC br">
+                        <input autocomplete="off" type="text" id="input_search" placeholder="متن جستجو را وارد کنید...">
+                        <button class="bg-tr tr br txt-white bg-red fade-hover cp"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 d-flex align-items-center justify-content-end">
+                    <div id="join_lbl" class="txt-left">
+                        <a href="#" class="c555 link-hover tr"><i
+                                class="fa tr c666 fa-sign-in-alt v-2 pl-6"></i>ورود</a>
+                        <span class="px-6"> | </span>
+                        <a href="#" class="c555 link-hover tr"><i class="fa tr c666 fa-user-plus v-2 pl-6"></i>ثبت
+                            نام</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="header_menu">
+            <div class="container d-flex py-md-2 justify-content-between align-items-center">
+                <ul class="d-none d-md-flex">
+                    <li class="categories-item posrel dropdown-toggler">
+                        <a href="#" class="txt-white tr br bg-red" data-disable="true">
+                            <i class="fa fa-bars v-2 pl-6"></i>دسته بندی</a>
+                        <ul class="dropdown hideAnim posabs bg-white br">
+                            <li class="f-15 dropdown-toggler posrel">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr" data-disable="true">
+                                    <i class="fa fa-plug pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                    <i class="fa fa-angle-left posabs v-2"></i>
+                                </a>
+                                <ul class="hideAnim dropdown posabs bg-white br">
+                                    <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                class="fa fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                            ساختگی</a></li>
+                                    <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                class="far fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                            ساختگی</a></li>
+                                </ul>
+                            </li>
+                            <li class="f-15 dropdown-toggler posrel">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr" data-disable="true">
+                                    <i class="fa fa-atom pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                    <i class="fa fa-angle-left posabs"></i>
+                                </a>
+                                <ul class="hideAnim dropdown posabs bg-white br">
+                                    <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                class="fa fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                            ساختگی</a></li>
+                                    <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                class="far fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                            ساختگی</a></li>
+                                </ul>
+                            </li>
+                            <li class="f-15 dropdown-toggler posrel">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr" data-disable="true">
+                                    <i class="fa fa-power-off pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                    <i class="fa fa-angle-left posabs"></i>
+                                </a>
+                                <ul class="hideAnim dropdown posabs bg-white br">
+                                    <li class="posrel dropdown-toggler">
+                                        <a href="#" class="d-block pt-3 pb-2 c444 tr" data-disable="true">
+                                            <i class="fa fa-lightbulb v-2 pl-6"></i>
+                                            لورم اپیسورم ساختگی
+                                            <i class="fa fa-angle-left posabs"></i>
+                                        </a>
+                                        <ul class="hideAnim dropdown posabs bg-white br">
+                                            <li>
+                                                <a href="#" class="d-block pt-3 pb-2 c444 tr" data-disable="true">
+                                                    <i class="fa fa-plug v-2 pl-6"></i>
+                                                    متن ساختگی با تولید سادگی
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                                    <i class="fa fa-plug v-2 pl-6"></i>
+                                                    متن ساختگی با تولید سادگی
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="posrel dropdown-toggler">
+                                        <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                            <i class="fa fa-lightbulb v-2 pl-6"></i>
+                                            لورم اپیسورم ساختگی
+                                            <i class="fa fa-angle-left posabs"></i>
+                                        </a>
+                                        <ul class="hideAnim dropdown posabs bg-white br">
+                                            <li>
+                                                <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                                    <i class="fa fa-plug v-2 pl-6"></i>
+                                                    متن ساختگی با تولید سادگی
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                                    <i class="fa fa-plug v-2 pl-6"></i>
+                                                    متن ساختگی با تولید سادگی
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="f-15">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                    <i class="fa fa-battery-half pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                </a>
+                            </li>
+                            <li class="f-15">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                    <i class="fa fa-gas-pump pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                </a>
+                            </li>
+                            <li class="f-15">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                    <i class="fa fa-wind pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                </a>
+                            </li>
+                            <li class="f-15">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                    <i class="fa fa-solar-panel pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                </a>
+                            </li>
+                            <li class="f-15">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                    <i class="fa fa-radiation pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                </a>
+                            </li>
+                            <li class="f-15">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                    <i class="fa fa-seedling pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                </a>
+                            </li>
+                            <li class="f-15">
+                                <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                    <i class="far fa-sun pl-6"></i>
+                                    لورم اپیسورم متن ساختگی
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="txt-white tr">صفحه اصلی</a></li>
+                    <li><a href="#" class="txt-white tr">خدمات</a></li>
+                    <li><a href="#" class="txt-white tr">درباره ما</a></li>
+                    <li><a href="#" class="txt-white tr">تماس با ما</a></li>
+                </ul>
+                <div id="mobileNavigation_toggler" class="d-md-none">
+                    <button class="bg-tr cp f-28">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+                <div class="dropdown-toggler pl-4 posrel" id="productCount_cart">
+                    <button class="bg-tr c666 cp">
+                        <i class="fa f-21 fa-shopping-cart"></i>
+                        <span class="posabs f-12 br-circle txt-white">2</span>
+                    </button>
+                    <div class="dropdown custom-scroll tr bg-white posabs borderE br hideAnim">
+                        <ul>
+                            <li class="d-flex px-2 py-2  posrel border-topE">
+                                <div class="image-product-cart pl-3">
+                                    <img src="img/LED.jpg">
+                                </div>
+                                <div class="content-product-cart mt-1">
+                                    <h4 class="pb-6">لورم اپیسورم</h4>
+                                    <div class="c777 f-14 mt-1">
+                                        <span class="div-price">25000</span>
+                                        <span>تومان</span>
+                                    </div>
+                                    <div class="c777 f-13 mt-1">
+                                        <span class="persian-text">4</span>
+                                        <span>عدد</span>
+                                    </div>
+                                </div>
+                                <button class="remove-product-cart fade-hover cp posabs bg-tr txt-red">
+                                    <i class="fa fa-times"></i>
+                                </button>
+                            </li>
+                            <li class="d-flex px-2 py-2  posrel border-topE">
+                                <div class="image-product-cart pl-3">
+                                    <img src="img/cover-led.jpg">
+                                </div>
+                                <div class="content-product-cart mt-1">
+                                    <h4 class="pb-6">لورم اپیسورم</h4>
+                                    <div class="c777 f-14 mt-1">
+                                        <span class="div-price">15000</span>
+                                        <span>تومان</span>
+                                    </div>
+                                    <div class="c777 f-13 mt-1">
+                                        <span class="persian-text">2</span>
+                                        <span>عدد</span>
+                                    </div>
+                                </div>
+                                <button class="remove-product-cart fade-hover cp posabs bg-tr txt-red">
+                                    <i class="fa fa-times"></i>
+                                </button>
+                            </li>
+                            <li class="d-flex px-2 py-2  posrel border-topE">
+                                <div class="image-product-cart pl-3">
+                                    <img src="img/iphone.jpg">
+                                </div>
+                                <div class="content-product-cart mt-1">
+                                    <h4 class="pb-6">لورم اپیسورم</h4>
+                                    <div class="c777 f-14 mt-1">
+                                        <span class="div-price">12000</span>
+                                        <span>تومان</span>
+                                    </div>
+                                    <div class="c777 f-13 mt-1">
+                                        <span class="persian-text">3</span>
+                                        <span>عدد</span>
+                                    </div>
+                                </div>
+                                <button class="remove-product-cart fade-hover cp posabs bg-tr txt-red">
+                                    <i class="fa fa-times"></i>
+                                </button>
+                            </li>
+                        </ul>
+                        <a href="#" class="w-100 continue-product-cart txt-center txt-white br d-block fade-hover">
+                            ادامه
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section id="navigation_mobile" class="d-none">
+            <div class="wrapper-all h-100 tr hideAnim">
+                <nav class="wrapper-nav posrel bg-white h-100 custom-scroll">
+                    <div class="logo txt-center my-2">
+                        <a href="#">
+                            <img src="img/logo.png" alt="logo" width="160" height="65">
+                        </a>
+                    </div>
+                    <div class="search-box">
+                        <form action="#">
+                            <div class="d-flex">
+                                <input type="text" class="w-100 p-2 borderC" placeholder="متن جستجو را وارد کنید...">
+                                <button class="txt-white cp br">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <ul class="px-12 py-3">
+                        <li class="mb-3"><a href="#">صفحه اصلی</a></li>
+                        <li class="posrel categories-item txt-white br dropdown-toggler mb-3">
+                            <a href="#" class="txt-white d-flex justify-content-between br" data-disable="true"> دسته
+                                بندی <i class="fa fa-angle-down mt-1"></i> </a>
+                            <ul class="dropdown d-none hideAnim bg-white br">
+                                <li class="f-15 dropdown-toggler posrel">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr" data-disable="true">
+                                        <i class="fa fa-plug pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                    <i class="fa fa-angle-down posabs"></i>
+                                    <ul class="hideAnim d-none dropdown bg-white br">
+                                        <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                    class="fa fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                                ساختگی</a></li>
+                                        <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                    class="far fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                                ساختگی</a></li>
+                                    </ul>
+                                </li>
+                                <li class="f-15 dropdown-toggler posrel">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr" data-disable="true">
+                                        <i class="fa fa-atom pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                    <i class="fa fa-angle-down posabs"></i>
+                                    <ul class="hideAnim d-none dropdown bg-white br">
+                                        <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                    class="fa fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                                ساختگی</a></li>
+                                        <li><a href="#" class="d-block pt-3 pb-2 c444 tr"><i
+                                                    class="far fa-lightbulb v-2 pl-6"></i>لورم اپیسورم
+                                                ساختگی</a></li>
+                                    </ul>
+                                </li>
+                                <li class="f-15 dropdown-toggler posrel">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr" data-disable="true">
+                                        <i class="fa fa-power-off pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                    <i class="fa fa-angle-down posabs"></i>
+                                    <ul class="hideAnim d-none dropdown bg-white br">
+                                        <li class="posrel dropdown-toggler">
+                                            <a href="#" class="d-block pt-3 pb-2 c444 tr" data-disable="true">
+                                                <i class="fa fa-lightbulb v-2 pl-6"></i>
+                                                لورم اپیسورم ساختگی
+                                            </a>
+                                            <i class="fa fa-angle-down posabs"></i>
+                                            <ul class="hideAnim d-none dropdown bg-white br">
+                                                <li>
+                                                    <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                                        <i class="fa fa-plug v-2 pl-6"></i>
+                                                        متن ساختگی با تولید سادگی
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                                        <i class="fa fa-plug v-2 pl-6"></i>
+                                                        متن ساختگی با تولید سادگی
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="posrel dropdown-toggler">
+                                            <a href="#" class="d-block pt-3 pb-2 c444 tr" data-disable="true">
+                                                <i class="fa fa-lightbulb v-2 pl-6"></i>
+                                                لورم اپیسورم ساختگی
+                                            </a>
+                                            <i class="fa fa-angle-down posabs"></i>
+                                            <ul class="hideAnim d-none dropdown bg-white br">
+                                                <li>
+                                                    <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                                        <i class="fa fa-plug v-2 pl-6"></i>
+                                                        متن ساختگی با تولید سادگی
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="d-block pt-3 pb-2 c444 tr">
+                                                        <i class="fa fa-plug v-2 pl-6"></i>
+                                                        متن ساختگی با تولید سادگی
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="f-15">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                        <i class="fa fa-battery-half pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                </li>
+                                <li class="f-15">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                        <i class="fa fa-gas-pump pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                </li>
+                                <li class="f-15">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                        <i class="fa fa-wind pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                </li>
+                                <li class="f-15">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                        <i class="fa fa-solar-panel pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>-
+                                </li>
+                                <li class="f-15">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                        <i class="fa fa-radiation pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                </li>
+                                <li class="f-15">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                        <i class="fa fa-seedling pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                </li>
+                                <li class="f-15">
+                                    <a href="#" class="c444 d-block w-100 pt-3 pb-2 tr">
+                                        <i class="far fa-sun pl-6"></i>
+                                        لورم اپیسورم متن ساختگی
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mb-3"> <a href="#">درباره ما</a> </li>
+                        <li class="mb-3"><a href="#">تماس باما</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row py-5 justify-content-center">
+                <aside class="col-md-8 col-lg-3 order-1 order-lg-0 mt-5 mt-lg-0" id="filter_sidebar">
+                    <div class="wrapper pl-lg-2">
+                        <form action="#">
+                            <div class="mt-5" id="type_product">
+                                <div class="wrapper">
+                                    <h4 class="f-17 dark-blue title-row posrel">
+                                        دسته بندی کالا
+                                    </h4>
+                                    <ul class="pt-2">
+                                        <li class="mt-3 Adropdown-toggler">
+                                            <i class="fa fa-angle-down v-2"></i>
+                                            <a href="#" class="link-hover tr" data-disable="true">
+                                                <span class="pr-2">لورم اپیسورم ویژه</span>
+                                                <span class="f-left">(10)</span>
+                                            </a>
+                                            <ul class="hideAnim d-none dropdown tr pr-3">
+                                                <li class="mt-3 c777">
+                                                    <i class="fa fa-angle-right v-2"></i>
+                                                    <a href="#" class="link-hover tr txt-inherit">
+                                                        <span class="pr-2">آیتم اول</span>
+                                                        <span class="f-left">(18)</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mt-3 c777">
+                                                    <i class="fa fa-angle-right v-2"></i>
+                                                    <a href="#" class="link-hover tr txt-inherit">
+                                                        <span class="pr-2">آیتم دوم</span>
+                                                        <span class="f-left">(8)</span>
+                                                    </a>
+                                                </li>
+                                                <li class="mt-3 c777">
+                                                    <i class="fa fa-angle-right v-2"></i>
+                                                    <a href="#" class="link-hover tr txt-inherit">
+                                                        <span class="pr-2">آیتم سوم</span>
+                                                        <span class="f-left">(4)</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="mt-3">
+                                            <i class="fa fa-angle-right v-2"></i>
+                                            <a href="#" class="link-hover tr">
+                                                <span class="pr-2">لورم اپیسورم</span>
+                                                <span class="f-left">(5)</span>
+                                            </a>
+                                        </li>
+                                        <li class="mt-3">
+                                            <i class="fa fa-angle-right v-2"></i>
+                                            <a href="#" class="link-hover tr">
+                                                <span class="pr-2">لورم اپیسورم</span>
+                                                <span class="f-left">(17)</span>
+                                            </a>
+                                        </li>
+                                        <li class="mt-3">
+                                            <i class="fa fa-angle-right v-2"></i>
+                                            <a href="#" class="link-hover tr">
+                                                <span class="pr-2">لورم اپیسورم</span>
+                                                <span class="f-left">(21)</span>
+                                            </a>
+                                        </li>
+                                        <li class="mt-3">
+                                            <i class="fa fa-angle-right v-2"></i>
+                                            <a href="#" class="link-hover tr">
+                                                <span class="pr-2">لورم اپیسورم</span>
+                                                <span class="f-left">(19)</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="brand_product">
+                                <div class="wrapper mt-5">
+                                    <h4 class="f-17 dark-blue title-row posrel">
+                                        برند
+                                    </h4>
+                                    <div class="my-3 search posrel">
+                                        <input type="text" class="input py-0 search-input pl-5"
+                                            placeholder="جستجوی برند...">
+                                        <span class="fa c888 f-17 fa-search posabs"></span>
+                                    </div>
+                                    <ul class="pt-2 mt-3 custom-scroll">
+                                        <li class="mt-3 search-item">
+                                            <label class="lbl-wrapper d-block posrel pr-2 cp">
+                                                <input type="checkbox" class="checkbox">
+                                                <span class="checkmark posrel br-circle">
+                                                    <i class="fa fa-check"></i>
+                                                </span>
+                                                <span class="brand-txt pr-6">آسیا الکتریک</span>
+                                            </label>
+                                        </li>
+                                        <li class="mt-3 search-item">
+                                            <label class="lbl-wrapper d-block posrel pr-2 cp">
+                                                <input type="checkbox" class="checkbox">
+                                                <span class="checkmark posrel br-circle">
+                                                    <i class="fa fa-check"></i>
+                                                </span>
+                                                <span class="brand-txt pr-6">اکووات</span>
+                                            </label>
+                                        </li>
+                                        <li class="mt-3 search-item">
+                                            <label class="lbl-wrapper d-block posrel pr-2 cp">
+                                                <input type="checkbox" class="checkbox">
+                                                <span class="checkmark posrel br-circle">
+                                                    <i class="fa fa-check"></i>
+                                                </span>
+                                                <span class="brand-txt pr-6">شبتاب</span>
+                                            </label>
+                                        </li>
+                                        <li class="mt-3 search-item">
+                                            <label class="lbl-wrapper d-block posrel pr-2 cp">
+                                                <input type="checkbox" class="checkbox">
+                                                <span class="checkmark posrel br-circle">
+                                                    <i class="fa fa-check"></i>
+                                                </span>
+                                                <span class="brand-txt pr-6">پارس شهاب</span>
+                                            </label>
+                                        </li>
+                                        <li class="mt-3 search-item">
+                                            <label class="lbl-wrapper d-block posrel pr-2 cp">
+                                                <input type="checkbox" class="checkbox">
+                                                <span class="checkmark posrel br-circle">
+                                                    <i class="fa fa-check"></i>
+                                                </span>
+                                                <span class="brand-txt pr-6">تامین نور</span>
+                                            </label>
+                                        </li>
+                                        <li class="mt-3 search-item">
+                                            <label class="lbl-wrapper d-block posrel pr-2 cp">
+                                                <input type="checkbox" class="checkbox">
+                                                <span class="checkmark posrel br-circle">
+                                                    <i class="fa fa-check"></i>
+                                                </span>
+                                                <span class="brand-txt pr-6">نماد</span>
+                                            </label>
+                                        </li>
+                                        <li class="mt-3 search-item">
+                                            <label class="lbl-wrapper d-block posrel pr-2 cp">
+                                                <input type="checkbox" class="checkbox">
+                                                <span class="checkmark posrel br-circle">
+                                                    <i class="fa fa-check"></i>
+                                                </span>
+                                                <span class="brand-txt pr-6">رایان برق</span>
+                                            </label>
+                                        </li>
+                                        <li class="mt-3 search-item">
+                                            <label class="lbl-wrapper d-block posrel pr-2 cp">
+                                                <input type="checkbox" class="checkbox">
+                                                <span class="checkmark posrel br-circle">
+                                                    <i class="fa fa-check"></i>
+                                                </span>
+                                                <span class="brand-txt pr-6">لورم اپیسورم 1</span>
+                                            </label>
+                                        </li>
+                                        <li class="mt-3 search-item">
+                                            <label class="lbl-wrapper d-block posrel pr-2 cp">
+                                                <input type="checkbox" class="checkbox">
+                                                <span class="checkmark posrel br-circle">
+                                                    <i class="fa fa-check"></i>
+                                                </span>
+                                                <span class="brand-txt pr-6">لورم اپیسورم 2</span>
+                                            </label>
+                                        </li>
+                                        <li class="mt-3 search-item">
+                                            <label class="lbl-wrapper d-block posrel pr-2 cp">
+                                                <input type="checkbox" class="checkbox">
+                                                <span class="checkmark posrel br-circle">
+                                                    <i class="fa fa-check"></i>
+                                                </span>
+                                                <span class="brand-txt pr-6">لورم اپیسورم 3</span>
+                                            </label>
+                                        </li>
+                                        <li class="mt-3 search-item">
+                                            <label class="lbl-wrapper d-block posrel pr-2 cp">
+                                                <input type="checkbox" class="checkbox">
+                                                <span class="checkmark posrel br-circle">
+                                                    <i class="fa fa-check"></i>
+                                                </span>
+                                                <span class="brand-txt pr-6">لورم اپیسورم 4</span>
+                                            </label>
+                                        </li>
+                                        <li class="mt-2 d-none item-null">
+                                            مورد یافت نشد !
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="price_product">
+                                <div class="wrapper mt-5">
+                                    <h4 class="dark-blue title-row posrel">
+                                        محدوده قیمت
+                                    </h4>
+                                    <div class="price dltr pt-6">
+                                        <div class="my-4 w-90 ml-auto">
+                                            <label class="f-right d-block" for="min_price">از</label>
+                                            <div class="f-left">
+                                                <span class="f-15 pl-1 demo persian-number">123123</span>
+                                                <span class="f-14 f-left">تومان</span>
+                                            </div>
+                                            <input class="mx-auto w-100 mt-3" type="range" min="10000" max="1000000"
+                                                id="min_price">
+                                        </div>
+                                        <div class="my-4 w-90 ml-auto">
+                                            <label class="f-right d-block" for="max_price">تا</label>
+                                            <div class="f-left">
+                                                <span class="f-15 pl-1 demo persian-number">123123</span>
+                                                <span class="f-14 f-left">تومان</span>
+                                            </div>
+                                            <input class="mx-auto w-100 mt-3" type="range" min="10000" max="1000000"
+                                                id="max_price">
+                                        </div>
+                                        <div class="mt-4 pt-6">
+                                            <button type="submit" class="button bg-blue fade-hover txt-white">اعمال
+                                                قیمت</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </aside>
+                <section class="col-md-8 col-lg-9">
+                    <!-- title -->
+                    <div class="row justify-content-center" data-type="timer" data-time="10:06:35">
+                        <div class="col-12 col-md-6 d-flex justify-content-center d-md-block">
+                            <h2 class="txt-red2 title-row posrel">
+                                شگفت انگیزهای دسته<i class="fa fa-clock v-2 f-25 pr-2 mr-1"></i></h2>
+                        </div>
+                        <div class="col-12 col-md-6 d-flex d-md-block justify-content-center mt-4 mt-md-0 txt-left">
+                            <p class="f-21 d-inline-block dltr bold txt-red2 anim-timer">
+                                <span class="hour">۰۰</span>
+                                <span>:</span>
+                                <span class="minute">۰۰</span>
+                                <span>:</span>
+                                <span class="second">۰۰</span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- amazing product -->
+                    <div class="row justify-content-center px-3 px-md-0 pt-6 mt-4 suggestions br pb-3" id="sg_wrapper">
+                        <div class="product-slider notnav1 dltr owl-carousel" data-count="3">
+                            <div class="slide-item drtl pl-2">
+                                <div class="h-100 bg-white">
+                                    <div class="wrapper-image posrel">
+                                        <img src="img/amazing-img1.jpg" class="w-100">
+                                        <img src="img/amazing-img1-1.jpg" class="cover-hover w-100 posabs">
+                                    </div>
+                                    <div class="wrapper-content mt-2">
+                                        <div class="title f-16">
+                                            <a href="#" class="link-hover txt-justify tr"> پنل تصویری الکترونیک</a>
+                                        </div>
+                                        <div class="off-price txt-left mt-3 mb-1">
+                                            <del class="persian-number pl-1 c777 f-16">532000</del>
+                                            <div class="bg-red d-inline-block cd f-17 txt-white br-50">
+                                                <span>%</span>
+                                                <span class="persian-number">20</span>
+                                            </div>
+                                        </div>
+                                        <div class="submit-price txt-left mt-2">
+                                            <span class="persian-number f-18">480000</span>
+                                            <span>تومان</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-item drtl pl-2">
+                                <div class="h-100 bg-white">
+                                    <div class="wrapper-image posrel">
+                                        <img src="img/amazing-img2.jpg" class="w-100">
+                                        <img src="img/amazing-img2-2.jpg" class="cover-hover w-100 posabs">
+                                    </div>
+                                    <div class="wrapper-content mt-2">
+                                        <div class="title f-16">
+                                            <a href="#" class="link-hover txt-justify tr"> پنل تصویری الکترونیک</a>
+                                        </div>
+                                        <div class="off-price txt-left mt-3 mb-1">
+                                            <del class="persian-number pl-1 c777 f-16">440000</del>
+                                            <div class="bg-red d-inline-block cd f-17 txt-white br-50">
+                                                <span>%</span>
+                                                <span class="persian-number">10</span>
+                                            </div>
+                                        </div>
+                                        <div class="submit-price txt-left mt-2">
+                                            <span class="persian-number f-18">560000</span>
+                                            <span>تومان</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-item drtl pl-2">
+                                <div class="h-100 bg-white">
+                                    <div class="wrapper-image posrel">
+                                        <img src="img/amazing-img3.jpg" class="w-100">
+                                        <img src="img/amazing-img3-3.jpg" class="cover-hover w-100 posabs">
+                                    </div>
+                                    <div class="wrapper-content mt-2">
+                                        <div class="title f-16">
+                                            <a href="#" class="link-hover txt-justify tr"> پنل تصویری الکترونیک</a>
+                                        </div>
+                                        <div class="off-price txt-left mt-3 mb-1">
+                                            <del class="persian-number pl-1 c777 f-16">2500000</del>
+                                            <div class="bg-red d-inline-block cd f-17 txt-white br-50">
+                                                <span>%</span>
+                                                <span class="persian-number">50</span>
+                                            </div>
+                                        </div>
+                                        <div class="submit-price txt-left mt-2">
+                                            <span class="persian-number f-18">1250000</span>
+                                            <span>تومان</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-item drtl pl-2">
+                                <div class="h-100 bg-white">
+                                    <div class="wrapper-image posrel">
+                                        <img src="img/amazing-img4.jpg" class="w-100">
+                                        <img src="img/amazing-img4-4.jpg" class="cover-hover w-100 posabs">
+                                    </div>
+                                    <div class="wrapper-content mt-2">
+                                        <div class="title f-16">
+                                            <a href="#" class="link-hover txt-justify tr"> پنل تصویری الکترونیک</a>
+                                        </div>
+                                        <div class="off-price txt-left mt-3 mb-1">
+                                            <del class="persian-number pl-1 c777 f-16">780000</del>
+                                            <div class="bg-red d-inline-block cd f-17 txt-white br-50">
+                                                <span>%</span>
+                                                <span class="persian-number">35</span>
+                                            </div>
+                                        </div>
+                                        <div class="submit-price txt-left mt-2">
+                                            <span class="persian-number f-18">469000</span>
+                                            <span>تومان</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-item drtl pl-2">
+                                <div class="h-100 bg-white">
+                                    <div class="wrapper-image posrel">
+                                        <img src="img/amazing-img1.jpg" class="w-100">
+                                        <img src="img/amazing-img1-1.jpg" class="cover-hover w-100 posabs">
+                                    </div>
+                                    <div class="wrapper-content mt-2">
+                                        <div class="title f-16">
+                                            <a href="#" class="link-hover txt-justify tr"> پنل تصویری الکترونیک</a>
+                                        </div>
+                                        <div class="off-price txt-left mt-3 mb-1">
+                                            <del class="persian-number pl-1 c777 f-16">532000</del>
+                                            <div class="bg-red d-inline-block cd f-17 txt-white br-50">
+                                                <span>%</span>
+                                                <span class="persian-number">20</span>
+                                            </div>
+                                        </div>
+                                        <div class="submit-price txt-left mt-2">
+                                            <span class="persian-number f-18">480000</span>
+                                            <span>تومان</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-item drtl pl-2">
+                                <div class="h-100 bg-white">
+                                    <div class="wrapper-image posrel">
+                                        <img src="img/amazing-img2.jpg" class="w-100">
+                                        <img src="img/amazing-img2-2.jpg" class="cover-hover w-100 posabs">
+                                    </div>
+                                    <div class="wrapper-content mt-2">
+                                        <div class="title f-16">
+                                            <a href="#" class="link-hover txt-justify tr"> پنل تصویری الکترونیک</a>
+                                        </div>
+                                        <div class="off-price txt-left mt-3 mb-1">
+                                            <del class="persian-number pl-1 c777 f-16">440000</del>
+                                            <div class="bg-red d-inline-block cd f-17 txt-white br-50">
+                                                <span>%</span>
+                                                <span class="persian-number">10</span>
+                                            </div>
+                                        </div>
+                                        <div class="submit-price txt-left mt-2">
+                                            <span class="persian-number f-18">560000</span>
+                                            <span>تومان</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- all product -->
+                    <div class="row justify-content-center mt-5 py-5">
+                        <div
+                            class="col-11 mx-auto col-md-12 mb-3 p-0 d-flex flex-wrap justify-content-between align-items-center">
+                            <div>
+                                <label for="filter_product" class="f-17">
+                                    <i class="fa fa-filter c666 pl-1 v-1"></i>
+                                    مرتب بندی بر اساس:</label>
+                            </div>
+                            <div class="col-md-4 px-2 mt-3 mt-lg-0">
+                                <select name="filter_product" class="w-100 input f-14" id="filter_product">
+                                    <option>ارزان ترین</option>
+                                    <option>گران ترین</option>
+                                    <option>پر فروش ترین</option>
+                                    <option>سریع ترین ارسال</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mt-3 slide-item px-2">
+                            <div class="h-100 bg-white pb-3">
+                                <div class="wrapper-image posrel bg-before mb-3">
+                                    <img src="img/amazing-img1.jpg" class="w-100">
+                                    <img src="img/amazing-img1-1.jpg" class="cover-hover w-100 posabs">
+                                </div>
+                                <div class="wrapper-content mt-2">
+                                    <div class="title f-16">
+                                        <a href="#" class="link-hover txt-justify tr"> پنل تصویری الکترونیک</a>
+                                    </div>
+                                    <div class="submit-price txt-left mt-2">
+                                        <span class="persian-number f-18">480000</span>
+                                        <span>تومان</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mt-3 slide-item px-2">
+                            <div class="h-100 bg-white pb-3">
+                                <div class="wrapper-image posrel bg-before mb-3">
+                                    <img src="img/amazing-img2.jpg" class="w-100">
+                                    <img src="img/amazing-img2-2.jpg" class="cover-hover w-100 posabs">
+                                </div>
+                                <div class="wrapper-content mt-2">
+                                    <div class="title f-16">
+                                        <a href="#" class="link-hover txt-justify tr"> پنل تصویری الکترونیک</a>
+                                    </div>
+                                    <div class="submit-price txt-left mt-2">
+                                        <span class="persian-number f-18">560000</span>
+                                        <span>تومان</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mt-3 slide-item px-2">
+                            <div class="h-100 bg-white pb-3">
+                                <div class="wrapper-image posrel bg-before mb-3">
+                                    <img src="img/amazing-img3.jpg" class="w-100">
+                                    <img src="img/amazing-img3-3.jpg" class="cover-hover w-100 posabs">
+                                </div>
+                                <div class="wrapper-content mt-2">
+                                    <div class="title f-16">
+                                        <a href="#" class="link-hover txt-justify tr"> پنل تصویری الکترونیک</a>
+                                    </div>
+                                    <div class="submit-price txt-left mt-2">
+                                        <span class="persian-number f-18">1250000</span>
+                                        <span>تومان</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mt-3 slide-item px-2">
+                            <div class="h-100 bg-white pb-3">
+                                <div class="wrapper-image posrel bg-before mb-3">
+                                    <img src="img/amazing-img4.jpg" class="w-100">
+                                    <img src="img/amazing-img4-4.jpg" class="cover-hover w-100 posabs">
+                                </div>
+                                <div class="wrapper-content mt-2">
+                                    <div class="title f-16">
+                                        <a href="#" class="link-hover txt-justify tr"> پنل تصویری الکترونیک</a>
+                                    </div>
+                                    <div class="submit-price txt-left mt-2">
+                                        <span class="persian-number f-18">469000</span>
+                                        <span>تومان</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mt-3 slide-item px-2">
+                            <div class="h-100 bg-white pb-3">
+                                <div class="wrapper-image posrel bg-before mb-3">
+                                    <img src="img/amazing-img1.jpg" class="w-100">
+                                    <img src="img/amazing-img1-1.jpg" class="cover-hover w-100 posabs">
+                                </div>
+                                <div class="wrapper-content mt-2">
+                                    <div class="title f-16">
+                                        <a href="#" class="link-hover txt-justify tr"> پنل تصویری الکترونیک</a>
+                                    </div>
+                                    <div class="submit-price txt-left mt-2">
+                                        <span class="persian-number f-18">480000</span>
+                                        <span>تومان</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mt-3 slide-item px-2">
+                            <div class="h-100 bg-white pb-3">
+                                <div class="wrapper-image posrel bg-before mb-3">
+                                    <img src="img/amazing-img2.jpg" class="w-100">
+                                    <img src="img/amazing-img2-2.jpg" class="cover-hover w-100 posabs">
+                                </div>
+                                <div class="wrapper-content mt-2">
+                                    <div class="title f-16">
+                                        <a href="#" class="link-hover txt-justify tr"> پنل تصویری الکترونیک</a>
+                                    </div>
+                                    <div class="submit-price txt-left mt-2">
+                                        <span class="persian-number f-18">560000</span>
+                                        <span>تومان</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- pager -->
+                        <div class="col-12 mt-5 txt-center">
+                            <a href="#" class="button ml-2 fade-hover br-circle f-17 h-100 bold bg-red txt-white">1</a>
+                            <a href="#" class="button ml-2 fade-hover br-circle f-17 h-100 bold bg-red txt-white">2</a>
+                            <a href="#" class="button ml-2 fade-hover br-circle f-17 h-100 bold bg-red txt-white">3</a>
+                            <a href="#" class="button ml-2 fade-hover br-circle f-17 h-100 bold bg-red txt-white">
+                                <i class="fa fa-chevron-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer id="native_footer">
+        <div class="bg">
+            <div class="container py-5 mt-5">
+                <div class="row">
+                    <div class="col-md-4 mb-4 mt-3">
+                        <div>
+                            <p>
+                                <i class="fa fa-map-marker-alt pl-2 v-1"></i>
+                                اصفهان ، خمینی شهر ، بلوار توحید
+                            </p>
+                        </div>
+                        <div class="mt-3">
+                            <p>
+                                <i class="fa fa-phone pl-2 v-1"></i>
+                                09132025022
+                            </p>
+                        </div>
+                        <div class="mt-3">
+                            <p>
+                                <i class="fa fa-envelope pl-2 v-1"></i>
+                                FazBargh@gmail.com
+                            </p>
+                        </div>
+                        <div class="mt-3">
+                            <p class="mb-3 pl-md-5">برای اطلاع از جدیدترین تخفیف ها و جشنواره ها در خبرنامه عضو شوید.
+                            </p>
+                            <form action="#" id="join_newser">
+                                <div class="d-flex col-lg-9 ml-auto pl-3 pr-0">
+                                    <input type="text" class="w-100 p-2" placeholder="آدرس ایمیل...">
+                                    <button class="bg-red txt-white fade-hover cp tr"><i
+                                            class="fa fa-check"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 mt-3">
+                        <ul id="link_shortcut" class="pr-4 pr-md-5">
+                            <li class="posrel mb-3"><a href="#" class="d-block tr">صفحه اصلی</a></li>
+                            <li class="posrel mb-3"><a href="#" class="d-block tr">محصولات</a></li>
+                            <li class="posrel mb-3"><a href="#" class="d-block tr">درباره ما</a></li>
+                            <li class="posrel mb-3"><a href="#" class="d-block tr">تماس باما</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4 mt-3">
+                        <div>
+                            <p>فاز برق را در شبکه های اجتماعی دنبال کنید.</p>
+                            <ul id="social_media" class="d-flex pr-5 mt-4">
+                                <li class="f-25 pl-3"><a href="#" class="tr"><i class="fab fa-telegram"></i></a>
+                                </li>
+                                <li class="f-25 pl-3"><a href="#" class="tr"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="f-25 pl-3"><a href="#" class="tr"><i class="fab fa-twitter"></i></a></li>
+                                <li class="f-25 pl-3"><a href="#" class="tr"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <div>
+                            <img src="img/namad1.png" alt="namad">
+                            <img src="img/namad2.png" alt="namad">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyRight py-2">
+            <p class="txt-white py-1 txt-center f-14">
+                <i class="fa pl-6 v-2 fa-copyright"></i>تمامی حقوق این وبسایت برای فاز برق محفوظ می باشد.
+            </p>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/script.js"></script>
+    <script>inputRange()</script>
+</body>
+
+</html>
